@@ -12,7 +12,7 @@ class CalculadoraFunc{
     }
     fun division(valA: Int, valB: Int): Int{
         if(valB == 0){
-            throw IllegalArgumentException("No se puedde dividir entre 0")
+            throw IllegalArgumentException("No se puede dividir entre 0")
         }
         else{
         return valA/valB
